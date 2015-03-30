@@ -63,12 +63,12 @@ function handleText(textNode)
 	v = v.replace(/\bBig data\b/g, "Big dicks");
 	
 	// add buttcoin crap
-	v = v.replace(/\bBitcoin\b/g, "Buttcoin");
 	v = v.replace(/\bBITCOINS\b/g, "BUTTCOINS");
-	v = v.replace(/\bbitcoin\b/g, "buttcoin");
 	v = v.replace(/\bBitcoins\b/g, "Buttcoins");
+	v = v.replace(/\bbitcoin\b/g, "buttcoin");
 	v = v.replace(/\bBTC\b/g, "Buttcoin");
 	v = v.replace(/\bBitCoin\b/g, "ButtCoin");
+	v = v.replace(/\bBitcoin\b/g, "Buttcoin");
 	
 	// "the internet of things" is pretty fuckin dumb, right?
 	v = v.replace(/\bThe internet of things\b/g, "The internet of dongs");
@@ -84,6 +84,7 @@ function handleText(textNode)
 	v = v.replace(/\bTHE PATRIACHY\b/g, "Castle Grayskull");
 	v = v.replace(/\bpatriachy\b/g, "Castle Grayskull");
 	v = v.replace(/\bPATRIACHYs\b/g, "Castle Grayskull");
+	v = v.replace(/\bPatriachy\b/g, "Castle Grayskull");
 	
 	textNode.nodeValue = v;
 }
