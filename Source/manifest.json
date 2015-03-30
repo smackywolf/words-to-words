@@ -3,6 +3,10 @@
 	"name": "Words to words",
 	"version": "1.0",
 	"description": "Replaces a bunch of dumb words with dumber words for comic effect.",
+	"browser_action": {
+    "default_icon": "poop.png",
+    "default_title": "Right click to disable"
+  },
 	"content_scripts": 
 	[
 		{
