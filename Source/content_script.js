@@ -57,10 +57,15 @@ function handleText(textNode)
 	
 	
 	// add Big Data
+	v = v.replace(/\bBig Data is\b/g, "Big Dicks are");
+	v = v.replace(/\bbig data is\b/g, "big dicks are");
+	v = v.replace(/\bbig Data is\b/g, "big Dicks are");
+	v = v.replace(/\bBig data is\b/g, "Big dicks are");
 	v = v.replace(/\bBig Data\b/g, "Big Dicks");
 	v = v.replace(/\bbig data\b/g, "big dicks");
 	v = v.replace(/\bbig Data\b/g, "big Dicks");
 	v = v.replace(/\bBig data\b/g, "Big dicks");
+	
 	
 	// add buttcoin crap
 	v = v.replace(/\bBITCOINS\b/g, "BUTTCOINS");
